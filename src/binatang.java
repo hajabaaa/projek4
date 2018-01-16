@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class binatang {
 public static void main(String[] args){
     Scanner input = new Scanner(System.in);
-    System.out.print("Taipkan tahun: " );
+    System.out.print("Taipkan anda ialah tahun: " );
     int year = input.nextInt();
         switch (year % 12) {
             case 0 : System.out.println( "monyet" ); break;
@@ -26,7 +26,7 @@ public static void main(String[] args){
             case 8 : System.out.println( "naga" ); break;
             case 9 : System.out.println( "ular" ); break;
             case 10 : System.out.println( "kuda" ); break;
-            case 11 : System.out.println( "kambing" );
+            case 11 : System.out.println( "kambinggg" );
         }
     }
 }
